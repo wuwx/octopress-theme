@@ -25,19 +25,6 @@
             echo ' | ' . sprintf( __( 'Page %s', 'twentyten' ), max( $paged, $page ) );
 
         ?></title>
-    <meta name="author" content="盘先海">
-    <?php
-    if(FALSE){
-    ?>
-        <meta name="keywords" content="<?php tag_to_keywords()?>">
-        <meta name="description" content="<?php content_to_meta();?>">
-    <?php } else { ?>
-        <meta name="keywords" content="wordpress theme, wordpress plugin, 盘先海, 博客">
-        <meta name="description" content="这是盘先海的个人博客，写一些关于生活，wordpress，编程相关的文章">
-    <?php }
-    ?>
-
-
     <!-- http://t.co/dKP3o1e -->
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
@@ -47,9 +34,6 @@
     <script src="<?php echo get_template_directory_uri(); ?>/javascripts/ender.js"></script>
 
     <script src="<?php echo get_template_directory_uri(); ?>/javascripts/octopress.js" type="text/javascript"></script>
-    <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
-    <link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
     <script src="http://yandex.st/highlightjs/6.1/highlight.min.js"></script>
     <link rel="stylesheet" href="http://yandex.st/highlightjs/6.1/styles/solarized_dark.min.css">
     <script>
