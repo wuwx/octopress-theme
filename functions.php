@@ -102,3 +102,13 @@ function content_to_meta(){
     echo $key;
 }
 */
+
+if( function_exists('register_sidebar') ) {
+	register_sidebar(array(
+		'before_widget' => '<section>',
+		'after_widget' => '</section>',
+		'before_title' => '<h1>',
+		'after_title' => '</h1>'
+	));
+}
+?>
