@@ -57,10 +57,9 @@
     <ul class="subscription" data-subscription="rss">
         <li><a href="<?php bloginfo('rss2_url'); ?>" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
     </ul>
-    <form action="http://google.com/search" method="get">
+    <form action="<?php echo esc_url( home_url( '/' ) ); ?>" method="get">
         <fieldset role="search">
-            <input type="hidden" name="q" value="site:panxianhai.com" />
-            <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+            <input class="search" type="text" name="s" results="0" placeholder="Search"/>
         </fieldset>
     </form>
     <ul class="main-navigation">
