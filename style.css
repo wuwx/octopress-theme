@@ -10,3 +10,24 @@ Tags: one-column, two-columns, fixed-width, threaded-comments, sticky-post, tran
 
 @import "stylesheets/screen.css";
 @import "stylesheets/comments.css";
+
+@media only screen and (max-width: 750px) {
+  header[role="banner"] {
+    display: none;
+  }
+  nav[role="navigation"] {
+    display: none;
+  }
+  article .meta {
+    display: none;
+  }
+  article .entry-title {
+    font-size: 1.5em;
+  }
+  aside.sidebar {
+    display: none;
+  }
+  footer[role="contentinfo"] {
+    display: none;
+  }
+}
