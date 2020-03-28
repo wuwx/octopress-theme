@@ -63,7 +63,7 @@
         </fieldset>
     </form>
     <ul class="main-navigation">
-        <?php wp_list_pages('sort_column=menu_order&title_li='); ?>
+        <?php wp_list_pages('depth=1&sort_column=menu_order&title_li='); ?>
     </ul>
 </nav>
 <div id="main">
